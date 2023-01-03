@@ -27,11 +27,12 @@ function gameStart() {
     }
     tileTwo();
     tileTwo();
+    
 }
 
 function tileTwo() {
 if (!emptyTiles()) {
-    alert ("Game Over!");
+   // alert ("Game Over!");
     return;
 }
 
@@ -62,6 +63,31 @@ function emptyTiles() {
     return false;
 }
 
+
+
+function gameOver() {
+    for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < columns; c++) {
+            if (gameboard [r][c] == 0) {
+                return false;
+            }
+        }
+    }
+    for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < columns; c++) {
+            if (r < rows - 1 && gameboard [r][c] == gameboard [r+1][c]) {
+            return false;
+            }
+
+            if (c < columns - 1 && gameboard [r][c] == gameboard [r][c+1]) {
+            return false;
+            }
+        }
+    }
+    alert ("Game Over!");
+    return true;
+}
+
 function updateTile(tile, coord) {
     tile.innerText = "";
     tile.classList.value = ""; //clear tile holding value to updated value
@@ -78,18 +104,22 @@ function updateTile(tile, coord) {
 
 document.addEventListener('keyup', (key) => {
     if (key.code == "ArrowLeft") {
+        gameOver();
         slideLeft();
         tileTwo();
     } 
     else if (key.code == "ArrowRight") {
+        gameOver();
         slideRight();
         tileTwo();
     }
     else if (key.code == "ArrowUp") {
+        gameOver();
         slideUp();
         tileTwo();
     }
     else if (key.code == "ArrowDown") {
+        gameOver();
         slideDown(); 
         tileTwo();
     }   

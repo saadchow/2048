@@ -5,6 +5,7 @@ body {
 
 .tile {
     justify-content: center;
+    font-family: Helvetica, sans-serif;
     align-items: center;
     font-size: 80px;
     font-weight: bold;
@@ -33,7 +34,11 @@ body {
     background-color: #cdc1b5;
 }
 
-
+.box {
+    position: relative;
+    left: 100px
+    top: 100px
+}
 
 .x2 {
     background-color: #eee4da;
