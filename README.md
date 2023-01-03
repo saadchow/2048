@@ -1,10 +1,8 @@
 # 2048
 
 <p align="center">
-  <img width="460" height="300" src="https://media4.giphy.com/media/lksxnMJpfbaakEvp67/giphy.gif?cid=790b76110a1ece53172d2d1d5259b0fb95717ac77ead5ee4&rid=giphy.gif&ct=g">
+  <img width="460" height="460" src="https://media4.giphy.com/media/lksxnMJpfbaakEvp67/giphy.gif?cid=790b76110a1ece53172d2d1d5259b0fb95717ac77ead5ee4&rid=giphy.gif&ct=g">
 </p>
-
-(https://media4.giphy.com/media/lksxnMJpfbaakEvp67/giphy.gif?cid=790b76110a1ece53172d2d1d5259b0fb95717ac77ead5ee4&rid=giphy.gif&ct=g)
 
 An interation of the widely popular mobile/web game 2048! 
 
