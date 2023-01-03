@@ -1,6 +1,6 @@
 # 2048
 
-![DEMO GIF](https://i.imgur.com/qtfVf2M.mp4))
+![DEMO GIF](https://media4.giphy.com/media/lksxnMJpfbaakEvp67/giphy.gif?cid=790b76110a1ece53172d2d1d5259b0fb95717ac77ead5ee4&rid=giphy.gif&ct=g))
 
 An interation of the widely popular mobile/web game 2048! 
 
