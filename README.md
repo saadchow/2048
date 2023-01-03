@@ -1,6 +1,6 @@
 # 2048
 
-![DEMO GIF](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![DEMO GIF](https://s3.gifyu.com/images/chrome-capture-2023-0-3.gif)
 
 An interation of the widely popular mobile/web game 2048! 
 
