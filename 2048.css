@@ -9,9 +9,18 @@ body {
     font-size: 80px;
     font-weight: bold;
     display: flex;
-    width: 190px;
-    height: 190px;
-    border: 5px solid #bbada0;
+    width: 180px;
+    height: 180px;
+    border: 10px solid #bbada0;
+    animation: show 200ms ease-in-out;
+    transition: 100ms ease-in-out;
+}
+
+@keyframes show {
+    0% {
+        opacity: .5;
+        transform: scale(0);
+    }
 }
 
 #gameboard {
@@ -24,3 +33,59 @@ body {
     background-color: #cdc1b5;
 }
 
+
+
+.x2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.x4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.x16 {
+    background-color: #f59575;
+    color: white;
+}
+
+.x32 {
+    background-color: #f57c5f;
+    color: white
+}
+
+.x64 {
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128 {
+    background-color: #edce71;
+    color: white;
+}
+
+.x256 {
+    background-color: #edcc63;
+    color: white;
+}
+
+.x512 {
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024 {
+    background-color: #eec744;
+    color: white;;
+}
+
+.x2048 {
+    background-color: #ecc230;
+    color: white;
+}
