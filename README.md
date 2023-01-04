@@ -22,3 +22,11 @@ Make sure you do not run out of space on the grid or else its game over!
   </p>
 
 Play Here: https://saadchow.github.io/2048/
+
+Technologies Used:
+Used HTML CSS and Javascript to develop the game. HTML and CSS used for visuals while Javascript was used to game functionality. 
+
+Future Enchancements:
+High Score Tracker to store a record of all-time highscores.
+Make game-level go above "2048".
+Add a possible timer to add depth to score.
