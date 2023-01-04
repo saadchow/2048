@@ -31,4 +31,3 @@ High Score Tracker to store a record of all-time highscores.
 Make game-level go above "2048".
 Add a possible timer to add depth to score.
 Smoother animations using CSS for the tile "slide".
-Add mobile browser support.
